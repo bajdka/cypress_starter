@@ -12,4 +12,10 @@ describe('My First Tests', () => {
 
         cy.url().should('include', '/commands/test');
     });
+
+
+    it('Custom assertion used', () => {
+        cy.visit('https://example.cypress.io');
+        cy.contains('type').should('have.price', '222')
+    });
 });
