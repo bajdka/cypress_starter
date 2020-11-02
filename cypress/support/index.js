@@ -1,5 +1,6 @@
 import addContext from 'mochawesome/addContext'
 import './customAssertions'
+import './elementCommands'
 
 const getScreenshotFileName = (test, runnable) => {
   let parent = runnable.parent
