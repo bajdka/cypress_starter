@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://example.cypress.io/",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "cypress-teamcity-reporter, mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/results/json",
+      "overwrite": false,
+      "html": false,
+      "json": true
+    }
+  },
+  "screenshotsFolder": "cypress/results/screenshots",
+  "videosFolder": "cypress/results/videos",
+  "videoUploadOnPasses": false
+}
