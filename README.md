@@ -17,7 +17,7 @@ npm run cy:run --spec cypress/integration/playground/**.js
 
 ### Generate HTML report after run
 ```
-yarn report:generate
+npm run report:generate
 ```
 
 ### Test run artifacts
